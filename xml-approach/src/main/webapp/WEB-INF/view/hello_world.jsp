@@ -5,7 +5,6 @@
     <title>result</title>
 </head>
 <body>
-<h2>Answer: </h2>
-<%--<c:out value="${requestScope.serverAnswer}"/>--%>
+Hello ${requestScope.hello}
 </body>
 </html>
