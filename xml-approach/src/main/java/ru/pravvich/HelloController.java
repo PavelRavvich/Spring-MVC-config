@@ -14,7 +14,7 @@ public class HelloController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String showUsers(ModelMap model) {
-        model.addAttribute("hello", " world");
+        model.addAttribute("world", " world");
         return "hello_world";
     }
 }

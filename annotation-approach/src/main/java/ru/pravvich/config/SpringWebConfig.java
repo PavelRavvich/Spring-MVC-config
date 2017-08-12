@@ -13,8 +13,6 @@ import org.springframework.web.servlet.view.JstlView;
 /**
  * Author : Pavel Ravvich.
  * Created : 11.08.17.
- * <p>
- * SpringWebConfig
  */
 @EnableWebMvc
 @Configuration
@@ -39,8 +37,8 @@ public class SpringWebConfig extends WebMvcConfigurerAdapter {
         return viewResolver;
     }
 
-    @Override
-    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
-        configurer.enable();
-    }
+//    @Override
+//    public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+//        configurer.enable();
+//    }
 }

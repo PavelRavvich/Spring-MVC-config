@@ -5,8 +5,6 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 /**
  * Author : Pavel Ravvich.
  * Created : 11.08.17.
- * <p>
- * WebDesc
  */
 public class WebDesc extends AbstractAnnotationConfigDispatcherServletInitializer {
 

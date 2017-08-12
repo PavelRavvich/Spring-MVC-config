@@ -5,6 +5,6 @@
     <title>result</title>
 </head>
 <body>
-Hello ${requestScope.hello}
+Hello ${requestScope.world}
 </body>
 </html>
