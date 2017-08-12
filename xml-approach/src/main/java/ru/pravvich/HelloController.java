@@ -1,4 +1,4 @@
-package ru.pravvich.controller;
+package ru.pravvich;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -8,11 +8,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Author : Pavel Ravvich.
  * Created : 11.08.17.
- * <p>
- * UserController
  */
 @Controller
-public class UserController {
+public class HelloController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String showUsers(ModelMap model) {
